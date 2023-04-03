@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const proxy = require('./proxy')
 
 app.use(express.static('public'));
 
